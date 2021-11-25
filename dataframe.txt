@@ -1,0 +1,19 @@
+import pandas as pd
+student ={'Unit Test -1' :[5,6,7,8,9], 'Unit Test -2':[10,16,17,18,19]}
+student1 ={'Unit Test -1' :[15,26,27,28,29], 'Unit Test -2':[30,36,37,38,30]}
+ds =pd.DataFrame(student)
+ds1 =pd.DataFrame(student1)
+print(ds)
+print(ds1)
+print("Subtract")
+print(ds.sub(ds1))
+print("rsub")
+print(ds.rsub(ds1))
+print("addition")
+print(ds.add(ds1))
+print("radd")
+print(ds.radd(ds1))
+print("Multiplication")
+print(ds.mul(ds1))
+print("division")
+print(ds.div(ds1))
